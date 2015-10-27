@@ -1,12 +1,10 @@
-# grunt-ec2 [![Build Status](https://travis-ci.org/bevacqua/grunt-ec2.png?branch=master)](https://travis-ci.org/bevacqua/grunt-ec2) [![Dependency Status](https://gemnasium.com/bevacqua/grunt-ec2.png)](https://gemnasium.com/bevacqua/grunt-ec2) [![help me on gittip](http://gbindex.ssokolow.com/img/gittip-43x20.png)](https://www.gittip.com/bevacqua/) [![flattr.png][6]](https://flattr.com/submit/auto?user_id=nzgb&url=https%3A%2F%2Fgithub.com%2Fbevacqua%2Fgrunt-ec2) ![ga](https://ga-beacon.appspot.com/UA-35043128-6/grunt-ec2/readme?pixel)
+# r7-grunt-ec2
 
 > Grunt tasks to create, terminate, and deploy Node applications to AWS EC2 instances, then proxy with nginx
 
 Abstracts away [**aws-sdk**](https://github.com/aws/aws-sdk-js) allowing you to easily launch, terminate, and deploy to AWS EC2 instances.
 
-Note: This is a _very_, _**very**_ opinionated package. You're invited to fork it and produce your own flow, and definitely encouraged to create pull requests with your awesome improvements.
-
-Jump to the [**task reference**](https://github.com/bevacqua/grunt-ec2#complete-task-reference) to see what it can do.
+Jump to the [**task reference**](https://github.com/canalplus/r7-grunt-ec2#complete-task-reference) to see what it can do.
 
 # Features
 
@@ -18,7 +16,6 @@ This is pretty feature packed
 - Deploy with a single Grunt task, using `rsync` for speed
 - Use `pm2` to deploy and do hot code swaps!
 - Works after reboots, too
-- [Introduced at Pony Foo](http://blog.ponyfoo.com/2013/09/19/deploying-node-apps-to-aws-using-grunt "Deploying Node apps to AWS using Grunt")
 - Put an `nginx` proxy server in front of Node
 - Get tons of Grunt tasks to manipulate your EC2 instances
 - Supports turning on `ssl` and `spdy` in your `nginx` server!
