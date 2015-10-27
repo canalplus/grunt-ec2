@@ -1,10 +1,10 @@
-# r7-grunt-ec2
+# grunt-ec2
 
 > Grunt tasks to create, terminate, and deploy Node applications to AWS EC2 instances, then proxy with nginx
 
 Abstracts away [**aws-sdk**](https://github.com/aws/aws-sdk-js) allowing you to easily launch, terminate, and deploy to AWS EC2 instances.
 
-Jump to the [**task reference**](https://github.com/canalplus/r7-grunt-ec2#complete-task-reference) to see what it can do.
+Jump to the [**task reference**](https://github.com/canalplus/grunt-ec2#complete-task-reference) to see what it can do.
 
 # Features
 
