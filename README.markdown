@@ -242,6 +242,8 @@ Task and Target(s)|Purpose
 `ec2-shutdown:name`|Terminates an instance, deleting its associated key-pair, IP address, and name tag
 `ec2-ssh:name`|Establishes an `ssh` connection to the instance, you can emit commands to your EC2 instance
 `ec2-ssh-text:name`|Displays a verbose command with which you can establish an `ssh` connection to the instance
+`ec2-start:name`|Starts the EC2 instance
+`ec2-stop:name`|Stops the EC2 instance
 `ec2-terminate-instance:id`|Terminates an instance
 `ec2-version:name`|Get the version number currently deployed to EC2
 `ec2-wait:id`|Waits for an instance to report a public DNS and be accessible through `ssh`
