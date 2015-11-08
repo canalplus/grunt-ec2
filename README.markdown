@@ -237,6 +237,8 @@ Task and Target(s)|Purpose
 `ec2-release-address:ip`|Releases an IP address
 `ec2-run-instance:name`|Spins up an EC2 instance, gives a name tag and assigns an IP
 `ec2-setup:name`|Sets up port forwarding, installs `rsync`, `node`, and `pm2`, enqueues `ec2-nginx-configure`
+`ec2_sg_list_json`|Lists all Security Groups. Prints results in JSON
+`ec2_sg_state_json`|Displays for each Security Group which Instance use it. Prints results in JSON
 `ec2-shutdown:name`|Terminates an instance, deleting its associated key-pair, IP address, and name tag
 `ec2-ssh:name`|Establishes an `ssh` connection to the instance, you can emit commands to your EC2 instance
 `ec2-ssh-text:name`|Displays a verbose command with which you can establish an `ssh` connection to the instance
